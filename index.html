@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ttt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tic Tac Toe <span class="text-danger">Game</span></h1>
+    </header>
+    <main>
+        <div class="roundBox"></div>
+        <div class="game">
+
+            <div class="gamebox">
+                <div id="box1" class="box1" onclick="fun('box1')"></div>
+                <div id="box2" class="box2" onclick="fun('box2')"></div>
+                <div id="box3" class="box3" onclick="fun('box3')"></div>
+                <div id="box4" class="box4" onclick="fun('box4')"></div>
+                <div id="box5" class="box5" onclick="fun('box5')"></div>
+                <div id="box6" class="box6" onclick="fun('box6')"></div>
+                <div id="box7" class="box7" onclick="fun('box7')"></div>
+                <div id="box8" class="box8" onclick="fun('box8')"></div>
+                <div id="box9" class="box9" onclick="fun('box9')"></div>
+            </div>
+            <div class="ResetG">
+                <button onclick="ResetGame()">Reset</button>
+            </div>
+
+            <div class="result">
+                <h1 id="result"></h1>
+            </div>
+        </div>
+
+        <div class="roundBox"></div>
+
+    </main>
+    <footer></footer>
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
